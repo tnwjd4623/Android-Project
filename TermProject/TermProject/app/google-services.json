@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358827408391",
+    "firebase_url": "https://what-should-i-wear-today.firebaseio.com",
+    "project_id": "what-should-i-wear-today",
+    "storage_bucket": "what-should-i-wear-today.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358827408391:android:a55dec3d11896e2c",
+        "android_client_info": {
+          "package_name": "com.example.mitny.termproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358827408391-cf78mpkc320uev97ksqu3fbl42unburm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mitny.termproject",
+            "certificate_hash": "587cf6b9f3bbc2a48659187a83447f0f39b2600a"
+          }
+        },
+        {
+          "client_id": "358827408391-fg931etkd6s50ehivlrhr53j8nojq80o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL98O8Qf0F3T5Bc0yXAO38RfbhlkMXLAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358827408391-fg931etkd6s50ehivlrhr53j8nojq80o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

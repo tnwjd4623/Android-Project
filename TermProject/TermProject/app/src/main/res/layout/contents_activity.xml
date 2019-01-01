@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <ImageButton
+            android:id="@+id/goodimg"
+            android:layout_width="38dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="69dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/baseline_thumb_up_black_18dp" />
+
+        <TextView
+            android:id="@+id/goodnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="77dp"
+            android:layout_marginEnd="148dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/goodimg"
+            android:layout_below="@+id/goodimg"
+            android:layout_marginTop="-69dp"
+            android:text="도움 됐어요" />
+
+        <ImageView
+            android:id="@+id/clothesImage"
+            android:layout_width="161dp"
+            android:layout_height="211dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="77dp"
+             />
+
+        <TextView
+            android:id="@+id/clothesText"
+            android:layout_width="154dp"
+            android:layout_height="72dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="216dp"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/feel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clothesImage"
+            android:layout_marginBottom="199dp"/>
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="220dp"
+            android:layout_marginStart="88dp" />
+
+        <TextView
+            android:id="@+id/commentview"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/clothesImage"
+            android:layout_marginBottom="167dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

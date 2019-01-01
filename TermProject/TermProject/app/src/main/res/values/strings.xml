@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TermProject</string>
+    <string name="title_list">글 목록</string>
+    <string name="title_jjim">찜 목록</string>
+    <string name="title_write">글쓰기</string>
+    <string name="title_more">더보기</string>
+</resources>

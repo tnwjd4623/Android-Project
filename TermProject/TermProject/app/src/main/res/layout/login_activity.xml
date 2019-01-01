@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="36dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="229dp"
+                android:layout_height="264dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/Google_Login"
+                android:layout_width="250dp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"></com.google.android.gms.common.SignInButton>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

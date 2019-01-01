@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/w_refreshbutton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:layout_marginRight="3dp"
+                app:srcCompat="@drawable/round_cached_black_18" />
+            <TextView
+                android:id="@+id/weatherText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Loading Temperature" />
+
+            <TextView
+                android:id="@+id/gpsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Loading Location" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="저장" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/clothes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="76dp"
+            android:text="옷 종류"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="315dp"
+            android:layout_height="91dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/clothes"
+            android:layout_marginTop="121dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/clothes"
+            android:layout_centerVertical="true"
+            android:text="코멘트"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/clothes"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText2"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="100dp"
+                android:layout_height="131dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimaryDark"
+                android:text="사진 업로드"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:windowSoftInputMode="adjustNothing">
+
+            <ImageButton
+                android:id="@+id/button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/clothes"
+                android:layout_marginBottom="44dp"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/cold" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/little_cold" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/good" />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/little_hot" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hot" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
