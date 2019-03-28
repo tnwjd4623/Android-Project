@@ -7,5 +7,5 @@ Description: Recommand Clothes according today's weather, Fashion SNS
 - Android Studio / Java  
 - Google Firebase / login API  
 - 기상청 API, Naver API  
-  
-
+    
+![main](./main.PNG)
